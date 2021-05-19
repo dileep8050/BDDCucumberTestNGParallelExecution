@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: parallel.ParallelRun
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 79.958 s <<< FAILURE! - in parallel.ParallelRun
+runScenario(parallel.ParallelRun)  Time elapsed: 37.376 s  <<< FAILURE!
+java.lang.AssertionError
+
+runScenario(parallel.ParallelRun)  Time elapsed: 59.819 s  <<< FAILURE!
+java.lang.AssertionError
+
+runScenario(parallel.ParallelRun)  Time elapsed: 60.265 s  <<< FAILURE!
+java.lang.AssertionError
+
+runScenario(parallel.ParallelRun)  Time elapsed: 60.315 s  <<< FAILURE!
+java.lang.AssertionError
+
