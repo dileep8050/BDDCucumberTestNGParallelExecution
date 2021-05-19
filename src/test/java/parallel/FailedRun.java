@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 				}, 
 		monochrome = true,
 		glue = { "parallel" },
-		features = { "@target/failedRerun.txt" } //Re run path
+		features = { "@target/failedRerun.txt" }
 )
 public class FailedRun extends AbstractTestNGCucumberTests {
 	@Override
