@@ -13,7 +13,8 @@ import io.cucumber.testng.CucumberOptions;
 				}, 
 		monochrome = true,
 		glue = { "parallel" },
-		features = { "src/test/resources/parallel" }
+		features = { "src/test/resources/parallel" },
+		tags = "@Smoke"
 )
 public class ParallelRun extends AbstractTestNGCucumberTests {
 	@Override

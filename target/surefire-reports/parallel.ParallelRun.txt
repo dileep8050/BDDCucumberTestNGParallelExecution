@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: parallel.ParallelRun
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 79.958 s <<< FAILURE! - in parallel.ParallelRun
-runScenario(parallel.ParallelRun)  Time elapsed: 37.376 s  <<< FAILURE!
-java.lang.AssertionError
-
-runScenario(parallel.ParallelRun)  Time elapsed: 59.819 s  <<< FAILURE!
-java.lang.AssertionError
-
-runScenario(parallel.ParallelRun)  Time elapsed: 60.265 s  <<< FAILURE!
-java.lang.AssertionError
-
-runScenario(parallel.ParallelRun)  Time elapsed: 60.315 s  <<< FAILURE!
-java.lang.AssertionError
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.059 s <<< FAILURE! - in parallel.ParallelRun
+runScenario(parallel.ParallelRun)  Time elapsed: 21.644 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?11111"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INBL01LAP04326', ip: '192.168.225.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\DILEEP~1.KUM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61316}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 622cbb79cdfd722f7ac61d1018175aa5
+*** Element info: {Using=link text, value=Forgot your password?11111}
 

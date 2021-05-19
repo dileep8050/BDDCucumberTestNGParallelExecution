@@ -1,144 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="7" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="78278" started-at="2021-05-19T10:52:40Z" finished-at="2021-05-19T10:53:58Z">
+  <suite name="Surefire suite" duration-ms="30536" started-at="2021-05-19T13:36:05Z" finished-at="2021-05-19T13:36:36Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="78278" started-at="2021-05-19T10:52:40Z" finished-at="2021-05-19T10:53:58Z">
+    <test name="Surefire test" duration-ms="30536" started-at="2021-05-19T13:36:05Z" finished-at="2021-05-19T13:36:36Z">
       <class name="parallel.ParallelRun">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="setUpClass" is-config="true" duration-ms="1130" started-at="2021-05-19T10:52:40Z" finished-at="2021-05-19T10:52:41Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="setUpClass" is-config="true" duration-ms="1038" started-at="2021-05-19T13:36:05Z" finished-at="2021-05-19T13:36:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="runScenario" duration-ms="60275" started-at="2021-05-19T10:52:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-19T10:53:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Duplicate Accounts page title"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Duplicate Account Page Feature]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:87)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at org.junit.Assert.assertTrue(Assert.java:53)
-at parallel.LoginPageSteps.page_title_should_be(LoginPageSteps.java:30)
-at ✽.page title should be "My account - My Store"(file:///C:/Users/dileep.kumar/Desktop/LearnGit/BDDCucucmberTestNGparallel/src/test/resources/parallel/Acc.feature:12)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="runScenario" duration-ms="68238" started-at="2021-05-19T10:52:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-19T10:53:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Duplicate Accounts section count"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Duplicate Account Page Feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="runScenario" duration-ms="59827" started-at="2021-05-19T10:52:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-19T10:53:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Accounts page title"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Account Page Feature]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:87)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at org.junit.Assert.assertTrue(Assert.java:53)
-at parallel.LoginPageSteps.page_title_should_be(LoginPageSteps.java:30)
-at ✽.page title should be "My account - My Store"(file:///C:/Users/dileep.kumar/Desktop/LearnGit/BDDCucucmberTestNGparallel/src/test/resources/parallel/AccountsPage.feature:12)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="runScenario" duration-ms="60321" started-at="2021-05-19T10:52:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-19T10:53:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Accounts section count"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Account Page Feature]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:87)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at org.junit.Assert.assertTrue(Assert.java:53)
-at parallel.AccountsPageSteps.accounts_section_count_should_be(AccountsPageSteps.java:55)
-at ✽.accounts section count should be 6(file:///C:/Users/dileep.kumar/Desktop/LearnGit/BDDCucucmberTestNGparallel/src/test/resources/parallel/AccountsPage.feature:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="runScenario" duration-ms="37042" started-at="2021-05-19T10:52:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-19T10:53:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login page title"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login page feature]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:87)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at org.junit.Assert.assertTrue(Assert.java:53)
-at parallel.LoginPageSteps.page_title_should_be(LoginPageSteps.java:30)
-at ✽.page title should be "Login - My Store"(file:///C:/Users/dileep.kumar/Desktop/LearnGit/BDDCucucmberTestNGparallel/src/test/resources/parallel/LoginPage.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="runScenario" duration-ms="60919" started-at="2021-05-19T10:52:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-19T10:53:42Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="runScenario" duration-ms="21626" started-at="2021-05-19T13:36:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-19T13:36:28Z">
           <params>
             <param index="0">
               <value>
@@ -151,26 +27,52 @@ at ✽.page title should be "Login - My Store"(file:///C:/Users/dileep.kumar/Des
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?11111"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INBL01LAP04326', ip: '192.168.225.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\DILEEP~1.KUM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61316}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 622cbb79cdfd722f7ac61d1018175aa5
+*** Element info: {Using=link text, value=Forgot your password?11111}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?11111"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INBL01LAP04326', ip: '192.168.225.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\DILEEP~1.KUM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61316}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 622cbb79cdfd722f7ac61d1018175aa5
+*** Element info: {Using=link text, value=Forgot your password?11111}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.pages.LoginPage.isForgotPwdLinkExist(LoginPage.java:29)
+at parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed(LoginPageSteps.java:35)
+at ✽.forgot your password link should be displayed(file:///C:/Users/dileep.kumar/Desktop/LearnGit/BDDCucucmberTestNGparallel/src/test/resources/parallel/LoginPage.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="runScenario" duration-ms="67976" started-at="2021-05-19T10:52:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-19T10:53:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with correct credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login page feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="tearDownClass" is-config="true" duration-ms="8875" started-at="2021-05-19T10:53:49Z" finished-at="2021-05-19T10:53:58Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@55f3ddb1]" name="tearDownClass" is-config="true" duration-ms="7822" started-at="2021-05-19T13:36:28Z" finished-at="2021-05-19T13:36:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

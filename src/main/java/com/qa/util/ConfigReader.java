@@ -11,8 +11,9 @@ public class ConfigReader {
 	public Properties init_prop(){
 		
 		prop=new Properties();
+		String projectDirectory=System.getProperty("user.dir");
 		try {
-			FileInputStream ip=new FileInputStream("C:\\Users\\dileep.kumar\\eclipse-workspace\\NewFramework\\HybridFramework\\src\\test\\resources\\config\\config.properties");
+			FileInputStream ip=new FileInputStream(projectDirectory+"\\src\\test\\resources\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
